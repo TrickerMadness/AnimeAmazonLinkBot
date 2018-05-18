@@ -1,0 +1,2 @@
+# AnimeAmazonLinkBot
+Gives anime links
