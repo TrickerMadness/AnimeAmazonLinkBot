@@ -14,11 +14,23 @@ client.on('message', message => {
     } else if (msg === '^re:zero') {
       message.reply('https://www.watchcartoononline.io/anime/re-zero-kara-hajimeru-isekai-seikatsu-english-subbed');
     } else if (msg === '^help') {
-      message.reply('To use this bot please enter the name of an anime with ^ in front of it and if we have that anime link it will');
+      message.reply('To use this bot please enter the name of an anime with ^ in front of it and if we have that anime link it will display a website/link where you can watch it');
     } else if (msg === '^list') {
-      message.reply('assassination classroom, blend s, re:zero ');
+      message.reply('assassination classroom, blend s, re:zero, sao, akashic records of bastard magic instructor, conan, naruto, foodwars, dragonballz, pokemon');
     } else if (msg === '^trash') {
       message.reply('https://www.watchcartoononline.io/anime/sword-art-online');
+    } else if (msg === '^akashic records of bastard magic instructor') {
+      message.reply('http://www.crunchyroll.com/akashic-records-of-bastard-magic-instructor');
+    } else if (msg === '^conan') {
+      message.reply('https://www.animegg.org/series/detectiveconan);
+    } else if (msg === '^naruto') {
+      message.reply('https://www.animegg.org/series/naruto%27);
+    } else if (msg === '^foodwars') {
+      message.reply('https://www.animegg.org/series/shokugeki-no-souma);
+    } else if (msg === '^dragonballz') {
+      message.reply('https://www.animegg.org/series/dragonball-z%27);
+    } else if (msg === '^pokemon') {
+      message.reply('https://www.animegg.org/search?search=pokemon%27)
     }
 });
 
