@@ -16,6 +16,7 @@ client.on('message', message => {
       message.reply('To use this bot please enter the name of an anime with ^ in front of it and if we have that anime link it will');
     } else if (message.content === '^List') {
       message.reply('assassination classroom, blend s, re:zero ');
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
