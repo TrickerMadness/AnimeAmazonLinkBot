@@ -17,6 +17,8 @@ client.on('message', message => {
       message.reply('To use this bot please enter the name of an anime with ^ in front of it and if we have that anime link it will');
     } else if (msg === '^list') {
       message.reply('assassination classroom, blend s, re:zero ');
+    } else if (msg === '^trash') {
+      message.reply('https://www.watchcartoononline.io/anime/sword-art-online');
     }
 });
 
