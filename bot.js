@@ -22,15 +22,15 @@ client.on('message', message => {
     } else if (msg === '^akashic records of bastard magic instructor') {
       message.reply('http://www.crunchyroll.com/akashic-records-of-bastard-magic-instructor');
     } else if (msg === '^conan') {
-      message.reply('https://www.animegg.org/series/detectiveconan);
+      message.reply('https://www.animegg.org/series/detectiveconan');
     } else if (msg === '^naruto') {
-      message.reply('https://www.animegg.org/series/naruto%27);
+      message.reply('https://www.animegg.org/series/naruto%27');
     } else if (msg === '^foodwars') {
-      message.reply('https://www.animegg.org/series/shokugeki-no-souma);
+      message.reply('https://www.animegg.org/series/shokugeki-no-souma');
     } else if (msg === '^dragonballz') {
-      message.reply('https://www.animegg.org/series/dragonball-z%27);
+      message.reply('https://www.animegg.org/series/dragonball-z%27');
     } else if (msg === '^pokemon') {
-      message.reply('https://www.animegg.org/search?search=pokemon%27)
+      message.reply('https://www.animegg.org/search?search=pokemon%27')
     }
 });
 
