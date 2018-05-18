@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-      message.reply('pongs');
+    if (message.content === 'assassination classroom') {
+      message.reply('https://www.watchcartoononline.io/anime/assassination-classroom-english-subbed');
       }
 });
 
