@@ -30,8 +30,10 @@ client.on('message', message => {
     } else if (msg === '^dragonballz') {
       message.reply('https://www.animegg.org/series/dragonball-z%27');
     } else if (msg === '^pokemon') {
-      message.reply('https://www.animegg.org/search?search=pokemon%27')
+      message.reply('https://www.animegg.org/search?search=pokemon%27');
     }
+    bot.user.setGame('Hello!');
+    
 });
 
 client.login(process.env.BOT_TOKEN);
