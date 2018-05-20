@@ -35,9 +35,4 @@ client.on('message', message => {
     
 });
 
-bot.on('ready', () => {
-    console.log('Bot Launched...');
-    bot.user.setStatus('online');
-    bot.user.setPresence({ game: { name: 'MyName', type: 0 } });
-});
 client.login(process.env.BOT_TOKEN);
